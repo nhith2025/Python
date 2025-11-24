@@ -1,4 +1,4 @@
-n=float(input())
-a=int(n)
+x=float(input())
+a=int(x)
 b=a+1
 print(a,b)
