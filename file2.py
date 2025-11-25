@@ -1,0 +1,13 @@
+fin=open("nhap.inp","r")
+fout=open("xuat.out","w")
+dong1=fin.readline()
+dong2=fin.readline()
+m=dong2.split(" ")
+a=int(m[0])
+b=int(m[1])
+c=int(m[2])
+d=int(m[3])
+for i in range(0,len(m)):
+    fout.write(str(m[i])+ " ")
+fin.close()
+fout.close()
